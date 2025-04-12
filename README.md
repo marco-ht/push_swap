@@ -151,7 +151,7 @@ push_swap/
    make
    ```
 
-   This will compile the code into the push_swap executable (use "make bonus" for compiling the checker executable.
+   This will compile the code into the push_swap executable (use "make bonus" for compiling the checker executable).
 
 ## Usage
 
