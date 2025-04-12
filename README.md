@@ -129,9 +129,8 @@ OK
 push_swap/
 ├── includes/            # Header files (e.g., push_swap.h)
 ├── srcs/                # C source files implementing the project logic
-├── libft/               # (Optional) libft sources and Makefile if used
-├── tests/               # Test scripts and sample inputs for validation
-├── Makefile             # Makefile with at least: NAME, all, clean, fclean, re (and bonus if applicable)
+├── libft/               # libft sources and its Makefile
+├── Makefile             # Makefile with at least: NAME, all, clean, fclean, re and bonus (for the checker)
 └── README.md            # This file
 ```
 
@@ -152,7 +151,7 @@ push_swap/
    make
    ```
 
-   This will compile your code into the push_swap (and optionally checker) executable(s).
+   This will compile the code into the push_swap executable (use "make bonus" for compiling the checker executable.
 
 ## Usage
 
@@ -176,7 +175,7 @@ Error
 
 ### Running checker
 
-If you have implemented the bonus checker, you can validate a sequence of operations as follows:
+Using the bonus checker, you can validate a sequence of operations as follows:
 
 ```sh
 ./checker 3 2 1 0
