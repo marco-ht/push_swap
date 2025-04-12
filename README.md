@@ -93,7 +93,7 @@ Error
 
 ### Benchmark Requirements
 
-- For a minimum grade (80): Sorting 100 random numbers must require fewer than 700 operations.
+- For a minimum grade (80): Sorting 100 random numbers must require fewer than 1500 operations.
 - For maximum validation and bonuses: For 500 random numbers, the number of operations must not exceed 5500.
 
 During evaluation, the number of operations produced by your program will be compared to a defined limit, and exceeding that limit will result in a grade of 0.
