@@ -96,7 +96,7 @@ Error
 - For a minimum grade (80): Sorting 100 random numbers must require fewer than 1500 operations.
 - For maximum validation and bonuses: For 500 random numbers, the number of operations must not exceed 5500.
 
-During evaluation, the number of operations produced by your program will be compared to a defined limit, and exceeding that limit will result in a grade of 0.
+During evaluation, the number of operations produced by push_swap program is compared to a defined limit in order to assign a grade to the program.
 
 ## Bonus Part: The checker Program
 
@@ -140,7 +140,7 @@ push_swap/
 1. **Clone the Repository:**
 
    ```sh
-   git clone https://github.com/yourusername/push_swap.git
+   git clone https://github.com/marco-ht/push_swap.git
    cd push_swap
    ```
 
